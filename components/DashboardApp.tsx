@@ -1483,7 +1483,7 @@ export default function DashboardApp(
                     type="password"
                     value={adminPassword}
                     onChange={(event) => setAdminPassword(event.target.value)}
-                    placeholder="테스트 기본 비밀번호: 1234"
+                    placeholder="관리자 비밀번호를 입력하세요"
                     autoFocus
                   />
                 </label>
